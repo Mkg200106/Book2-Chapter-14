@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chapter 14</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  <h1>Martha's Pizzeria</h1>
+
+ <div id="orderForm">
+  <label>How many pizzas do you want?
+    <input type="number" id="numPizzas" />
+  </label>
+  <br />
+  <br />
+  <label>What kind of pizzas?
+    <select id="typePizza">
+      <option value="cheese">Cheese</option>
+      <option value="pepperoni">Pepperoni</option>
+      <option value="supreme">Supreme</option>
+    </select>
+  </label>
+  <br />
+  <br />
+  <label>Where do you live?
+    <select id="deliveryCity">
+      <option value="Anytown">Anytown</option>
+      <option value="Sacramento">Sacramento</option>
+      <option value="Cape Town">Cape Town</option>
+    </select>
+  </label>
+  <br />
+  <br />
+   <label>Is it your birthday?
+     <select id="birthday">
+       <option value="yes">Yes</option>
+       <option value="no">No</option>
+     </select>
+   </label>
+  <button type="button" id="placeOrder">Place Order</button>
+ </div>
+ <div id="displayTotal"></div>
+
+  <script src="pizzeria.js">
+    
+  </script>
+</body>
+</html>
